@@ -1,0 +1,4 @@
+"input_start_date": "2016-01-01"
+"input_end_date": "2019-01-01"
+"output_headers": ["transaction_id", "event_id", "ticket_id", "event_date", "date_added", "quantity", "total_cost", "venue_config_id", "sqs"]
+"output_file": "gs://mm_consumer_tools/auto_pricing/preprocessing/data_output/ap_v2_training_data.csv.gz"

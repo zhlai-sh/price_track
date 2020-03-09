@@ -1,0 +1,8 @@
+"--max_num_workers": '50'
+"--network": "train-ml-dev-53711-vpc"
+"--subnetwork": "regions/us-central1/subnetworks/train-ml"
+"--setup_file": "./setup.py"
+"--runner": "DataflowRunner"
+"--service_account_email": "ml-dataflow-executor@train-ml-dev-53711.iam.gserviceaccount.com"
+"--temp_location": "gs://mm_consumer_tools/auto_pricing/preprocessing/workflow_logs"
+"--project": "train-ml-dev-53711"

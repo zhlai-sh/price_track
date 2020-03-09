@@ -1,0 +1,4 @@
+"input_start_date": "2016-01-01"
+"input_end_date": "2020-02-01"
+"output_headers": ["transaction_id", "event_id", "ticket_id", "sqs", "bvs", "price", "timestamp"]
+"output_file": "gs://mm_consumer_tools/price_track/preprocessing/data_output/ap_v2_genre_retrain/ap_v2_retrain_gcf_concerts.csv"
