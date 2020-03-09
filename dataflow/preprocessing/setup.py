@@ -1,7 +1,7 @@
 '''Dataflow preprocessing pacakge configuration'''
 
 from setuptools import setup, find_packages
-REQUIRED_PACKAGES = ['PyYAML==3.13',
+REQUIRED_PACKAGES = ['PyYAML==5.1',
                      'avro-python3==1.9.1',
                      'apache-beam[gcp]==2.12.0'
                      ]
