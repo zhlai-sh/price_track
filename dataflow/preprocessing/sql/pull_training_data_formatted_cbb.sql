@@ -17,7 +17,7 @@ JOIN `stubhub-dataplatform-prd.data_science_dev.SQS_Tier_32` sqs
   ON e.venue_config_id = sqs.venue_config_id
  AND st.venue_config_sections_id = sqs.section_id
  AND st.row_desc = sqs.row_desc
-WHERE (g.genre_cat_final = 'College Basketball' AND e.season = 2019)  -- below, these are required data filtering logic:
+WHERE (g.genre_cat_final = 'College Basketball' AND e.season = 2018)  -- below, these are required data filtering logic:
   AND spf.transaction_id is not null                   -- data-integrity checks: since spf table on gcp do not enforce these fields as non-nullable
   AND spf.ticket_id is not null
   AND spf.src_created_dttm_sale is not null
